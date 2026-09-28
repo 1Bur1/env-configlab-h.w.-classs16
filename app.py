@@ -2,6 +2,6 @@ import os
 
 from dotenv import load_dotenv
 
-load_dotenv()  # reads .env into environment variables
+load_dotenv() 
 
-API_KEY = os.getenv("API_KEY")  # key no longer hardcoded here
+API_KEY = os.getenv("API_KEY") 
